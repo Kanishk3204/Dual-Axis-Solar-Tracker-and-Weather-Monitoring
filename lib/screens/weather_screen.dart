@@ -56,7 +56,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
   }
 
   Future<void> fetchWeatherData() async {
-    final apiKey = '37dbf41a4e288aaef9c1193969695604'; // Replace with your API key
+    final apiKey = "YOUR_API_KEY; // Replace with your API key
     final cityName = 'delhi';
     final apiUrl =
         'https://api.openweathermap.org/data/2.5/weather?q=$cityName&appid=$apiKey&units=metric';
